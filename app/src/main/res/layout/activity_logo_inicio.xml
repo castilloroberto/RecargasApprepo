@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00a8ff"
+    tools:context=".LogoInicio">
+
+    <ImageView
+        android:id="@+id/img_inicio"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_capsula"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/splash_screem" />
+
+    <TextView
+        android:id="@+id/tv_developer"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="30sp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desarrollada_por"
+        android:layout_marginLeft="100dp" />
+
+    <TextView
+        android:textColor="#34495e"
+        android:layout_marginBottom="30sp"
+        android:layout_marginStart="10sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/roberto"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/tv_developer"
+        android:layout_toRightOf="@+id/tv_developer"
+        android:layout_marginLeft="10sp" />
+
+</RelativeLayout>

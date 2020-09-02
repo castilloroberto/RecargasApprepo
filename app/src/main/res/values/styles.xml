@@ -1,0 +1,55 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="SplashScreem" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="customBtn2" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <!-- ... -->
+        <item name="borderlessButtonStyle">@drawable/bg_botones</item>
+        <item name="android:backgroundTint">#eb3b5a</item>
+        <item name="android:textColor">#dfe6e9</item>
+    </style>
+
+<!--    <item name="android:textColor">@color/chip_texcolor</item>-->
+<!--    <item name="checkedIconTint">@color/blanco</item>-->
+
+    <style name="customChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+        <!-- ... -->
+        <item name="chipBackgroundColor">@color/chip_bg</item>
+        <item name="android:textColor">@color/chip_texcolor</item>
+        <item name="checkedIconTint">@color/blanco</item>
+
+
+    </style>
+
+
+    <style name="Ajustestheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#f1c40f</item>
+    </style>
+
+</resources>
+
+
+
+<!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--<item name="colorPrimary">@color/colorPrimary</item>-->
+<!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--<item name="colorAccent">@color/colorAccent</item>-->
+<!--</style>-->

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RecargApp</string>
+    <string name="recargas">Recargas</string>
+    <string name="paquetes">Paquetes</string>
+    <string name="recargas_texactivity">Recargas</string>
+    <string name="paquetes_textactivity">Paquetes no disponible aun</string>
+    <string name="ajustes_nav">Ajustes</string>
+    <string name="numero_edittext">Numero</string>
+    <string name="button_recargas">Enviar</string>
+    <string name="monto_edittext">Monto</string>
+    <string name="textview_ajustes">PIN</string>
+    <string name="button_ajustes">Guardar</string>
+    <string name="ingrese_su_pin_texteditalert">Ingrese su PIN</string>
+    <string name="ingrese_su_pin">Ingrese su PIN</string>
+    <string name="ingresar_pin">ingresar pin</string>
+    <string name="splash_screem">splash screem</string>
+    <string name="desarrollada_por">Desarrollada Por</string>
+    <string name="roberto">Roberto Castillo</string>
+    <string name="bg1">bg1</string>
+    <string name="todo">bg2</string>
+    <string name="chip_two">Tigo</string>
+    <string name="chip_one">Claro</string>
+</resources>
